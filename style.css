@@ -1,0 +1,95 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #101d3a;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.main {
+    background: linear-gradient(135deg, #101d3a, #315bdc);
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.main h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.main p {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    background: #5685ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 25px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.courses div {
+    background: #eef2ff;
+    padding: 35px;
+    border-radius: 12px;
+}
+
+footer {
+    background: #101d3a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    .main h1 {
+        font-size: 30px;
+    }
+}
